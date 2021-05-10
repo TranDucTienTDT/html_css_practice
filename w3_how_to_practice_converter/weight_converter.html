@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pounds to Kilograms Weight Converter</title>
+        <script type="text/javascript" src="weightConverter.js"></script>
+    </head>
+
+    <body>
+
+        <h2>Weight Converter</h2>
+        <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
+
+        <p>
+            <label>Pounds</label>
+            <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverterPoundsToKilograms(this.value)" onchange="weightConverterPoundsToKilograms(this.value)">
+        </p>
+        <p>Kilograms: <span id="outputKilograms"></span></p>
+
+        <p>Type a value in the Pounds field to convert the value to Ounces:</p>
+
+        <p>
+            <label>Pounds</label>
+            <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverterPoundsToOunces(this.value)" onchange="weightConverterPoundsToOunces(this.value)">
+        </p>
+        <p>Ounces: <span id="outputOunces"></span></p>
+
+    </body>
+</html>
